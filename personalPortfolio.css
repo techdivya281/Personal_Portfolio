@@ -1,0 +1,56 @@
+body
+{
+    background-image:url(./Images/BackgroundImage03);
+    background-repeat: none;
+    background-size: contain;
+    /* margin: 0; */
+    overflow-x: hidden;
+    /* opacity: 0.8; */
+}
+
+.background-color
+{
+    background-color:rgb(22, 19, 53);
+    
+}
+h1,#skills
+{
+    font-family: 'Caveat', cursive;
+
+}
+.card{
+
+    margin-left: 25%;
+    color: rgb(238, 245, 250);
+    background-color:rgb(22, 19, 53);
+}
+.card h4{
+    font-family: 'Amita', cursive;
+    font-size: larger;
+}
+li h5{
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5px;
+    color: rgb(243, 243, 246);
+}
+.card li,  #training-section p
+{
+    font-family: 'Eczar', serif;
+}
+.nav-link 
+{
+    color: antiquewhite;
+}
+.card:hover, #education-section:hover, #project-section:hover,#skills-section:hover, #training-section:hover
+{
+    transform: scale(1.03);
+    
+}
+.card,#education-section, #project-section, #skills-section, #training-section
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.degree, #project-section h5
+{
+    font-family: 'Kaushan Script', cursive;
+}
