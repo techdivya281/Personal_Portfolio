@@ -4,6 +4,8 @@ body
     background-repeat: none;
     background-size: contain;
     overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
 
 .background-color
@@ -34,12 +36,10 @@ li h5,h5,h6{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 50px;
     background-color:#d3d3d365;
-    justify-content:center;
+
     
 }
-@media screen and (max-width: 500px) {
-    body {
-        background-repeat: none;
-    }
-  
+.jusify-content-center
+{
+    justify-content:center;
 }
