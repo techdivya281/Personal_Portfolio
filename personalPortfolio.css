@@ -40,7 +40,6 @@ li h5,h5,h6{
 @media screen and (max-width: 500px) {
     body {
         background-repeat: none;
-        background-size: cover;
     }
   
 }
